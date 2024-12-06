@@ -1,0 +1,17 @@
+@model TestViewModel;
+@{
+    ViewData["Title"] = "Test Page";
+}
+
+<h1>Hello From Test Controller</h1>
+<h2>Our Student are @Model.Name with Id of @Model.Id</h2>
+
+@if(Model.DateOfBirth.HasValue)
+{
+<h3>Student Date of Birth is @Model.DateOfBirth</h3>
+}
+else{
+
+}
+
+ 
