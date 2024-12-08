@@ -40,7 +40,7 @@ public class LeaveTypesController : Controller
 
     }
 
-
+//GET: LeaveTypes/Create
     public IActionResult Create()
      {
          return View();
@@ -113,6 +113,7 @@ public class LeaveTypesController : Controller
 
      }
 
+//GET: LeaveTypes/Delete/5
 
     //Delete LeaveType
 
