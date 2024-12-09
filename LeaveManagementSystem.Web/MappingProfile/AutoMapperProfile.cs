@@ -12,6 +12,8 @@ public class AutoMapperProfile : Profile
         CreateMap<LeaveType, IndexVM>();
 
         CreateMap<LeaveType, DetailsVM>();
+
+        CreateMap<LeaveTypeCreateVM, LeaveType>();
         
     }
 

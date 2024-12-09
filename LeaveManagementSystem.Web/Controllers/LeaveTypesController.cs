@@ -25,7 +25,7 @@ public class LeaveTypesController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var data = await _context.LeaveTypes.ToListAsync();
+        var data = await _context.LeaveTypes!.ToListAsync();
 
 
         var viewData = _mapper.Map<List<IndexVM>>(data);
@@ -39,7 +39,7 @@ public class LeaveTypesController : Controller
     {
         if(id == null) return NotFound();
 
-        var leaveType = await _context.LeaveTypes.FirstOrDefaultAsync(m => m.Id == id);
+        var leaveType = await _context.LeaveTypes!.FirstOrDefaultAsync(m => m.Id == id);
 
         if (leaveType == null) return NotFound();
 
@@ -61,16 +61,17 @@ public class LeaveTypesController : Controller
      // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
      [HttpPost]
      [ValidateAntiForgeryToken]
-     public async Task<IActionResult> Create([Bind("Id,Name,NumberOfDays")] LeaveType leaveType)
+     public async Task<IActionResult> Create(LeaveTypeCreateVM leaveTypeCreate)
      {
          if (ModelState.IsValid)
          {
+            var leaveType = _mapper.Map<LeaveType>(leaveTypeCreate);
              leaveType.Id = Guid.NewGuid();
              _context.Add(leaveType);
              await _context.SaveChangesAsync();
              return RedirectToAction(nameof(Index));
          }
-         return View(leaveType);
+         return View(leaveTypeCreate);
      }
 
         //Update LeaveType by Id
@@ -78,7 +79,7 @@ public class LeaveTypesController : Controller
      {
         if(id==null) return NotFound();
 
-        var leaveType = await _context.LeaveTypes.FindAsync(id);
+        var leaveType = await _context.LeaveTypes!.FindAsync(id);
 
         if (leaveType == null) return NotFound();
 
@@ -134,7 +135,7 @@ public class LeaveTypesController : Controller
             return NotFound();
         }
 
-        var leaveType = await _context.LeaveTypes.FirstOrDefaultAsync(m => m.Id == id);
+        var leaveType = await _context.LeaveTypes!.FirstOrDefaultAsync(m => m.Id == id);
 
         if (leaveType == null) return NotFound();
 
@@ -149,7 +150,7 @@ public class LeaveTypesController : Controller
 
     public async Task<IActionResult> DeleteConfirmed(Guid id)
     {
-        var leaveType = await _context.LeaveTypes.FindAsync(id);
+        var leaveType = await _context.LeaveTypes!.FindAsync(id);
 
         if (leaveType != null)
         {
@@ -172,7 +173,7 @@ public class LeaveTypesController : Controller
 
      private bool LeaveTypeExists(Guid id)
       {
-          return _context.LeaveTypes.Any(e => e.Id == id);
+          return _context.LeaveTypes!.Any(e => e.Id == id);
       }
 
 }
