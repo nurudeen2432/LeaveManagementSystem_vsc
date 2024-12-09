@@ -63,6 +63,11 @@ public class LeaveTypesController : Controller
      [ValidateAntiForgeryToken]
      public async Task<IActionResult> Create(LeaveTypeCreateVM leaveTypeCreate)
      {
+        //Adding custom validation and Model state error
+        // if(leaveTypeCreate.Name.Contains("vacation")){
+        //     ModelState.AddModelError(nameof(leaveTypeCreate.Name), "Leave Name should not contain vacation");
+        // }
+
          if (ModelState.IsValid)
          {
             var leaveType = _mapper.Map<LeaveType>(leaveTypeCreate);
@@ -83,7 +88,9 @@ public class LeaveTypesController : Controller
 
         if (leaveType == null) return NotFound();
 
-        return View(leaveType);
+        var viewData = _mapper.Map<LeaveTypeEditVM>(leaveType);
+
+        return View(viewData);
 
 
 
@@ -93,9 +100,9 @@ public class LeaveTypesController : Controller
      [HttpPost]
      [ValidateAntiForgeryToken]
 
-     public async Task<IActionResult> Edit(Guid id, [Bind("Id,Name,NumberOfDays")] LeaveType leaveType)
+     public async Task<IActionResult> Edit(Guid id, LeaveTypeEditVM leaveTypeEdit )
      {
-        if(id != leaveType.Id)
+        if(id != leaveTypeEdit.Id)
         {
             return NotFound();
         }
@@ -104,12 +111,13 @@ public class LeaveTypesController : Controller
         {
             try
             {
+                var leaveType = _mapper.Map<LeaveType>(leaveTypeEdit);
                 _context.Update(leaveType);
                 await _context.SaveChangesAsync();
             }
             catch(DbUpdateConcurrencyException)
             {
-                if(!LeaveTypeExists(leaveType.Id))
+                if(!LeaveTypeExists(leaveTypeEdit.Id))
                 {
                     return NotFound();
                 }else
@@ -120,7 +128,7 @@ public class LeaveTypesController : Controller
 
             return RedirectToAction(nameof(Index));
         }
-        return View(leaveType);
+        return View(leaveTypeEdit);
 
      }
 
