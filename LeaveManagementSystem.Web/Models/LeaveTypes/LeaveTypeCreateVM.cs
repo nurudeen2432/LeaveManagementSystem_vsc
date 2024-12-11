@@ -10,6 +10,7 @@ public class LeaveTypeCreateVM
 
 [Required]
 [Range(1, 90)]
+[Display(Name ="Maximum Allocation of Days")]
     public string NumberOfDays { get; set; } = default!;
 
 
