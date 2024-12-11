@@ -108,7 +108,7 @@ public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Control
         {
             try
             {
-                var leaveType = _leaveTypeService.Get<LeaveTypeEditVM>(id);
+                await _leaveTypeService.Edit(leaveTypeEdit);
             }
             catch(DbUpdateConcurrencyException)
             {
