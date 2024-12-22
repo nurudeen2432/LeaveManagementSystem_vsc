@@ -4,6 +4,7 @@ using LeaveManagementSystem.Web.Data;
 using System.Reflection;
 using LeaveManagementSystem.Web.Services;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,11 +20,16 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+    
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
+
+//I need a new client anytime Email should be dispatched
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 var app = builder.Build();
 
@@ -44,6 +50,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+
+app.UseAuthentication(); 
 app.UseAuthorization();
 
 app.MapControllerRoute(

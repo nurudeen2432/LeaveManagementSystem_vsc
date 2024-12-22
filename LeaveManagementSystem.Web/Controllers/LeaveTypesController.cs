@@ -7,8 +7,10 @@ using LeaveManagementSystem.Web.Models.LeaveTypes;
 using AutoMapper;
 using LeaveManagementSystem.Web.Services;
 
+
 namespace LeaveManagementSystem.Web.Controllers {
 
+[Authorize(Roles = Roles.Administrator)]
 public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Controller
 {
   
@@ -144,7 +146,7 @@ public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Control
             return NotFound();
         }
 
-        var leaveType = await _leaveTypeService.Get<IndexVM>(id.Value);
+        var leaveType = await _leaveTypeService.Get<LeaveTypeDeleteVm>(id.Value);
 
         if (leaveType == null) return NotFound();
         return View(leaveType);
