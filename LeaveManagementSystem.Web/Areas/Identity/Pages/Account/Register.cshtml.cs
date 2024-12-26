@@ -3,6 +3,7 @@
 #nullable disable
 
 
+using LeaveManagementSystem.Web.Services.LeaveAllocations;
 using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
@@ -14,6 +15,8 @@ namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
         private readonly IUserStore<ApplicationUser> _userStore;
         private readonly IUserEmailStore<ApplicationUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
+
+        private readonly ILeaveAllocationService _leaveAllocationService;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailSender _emailSender;
 
@@ -21,6 +24,7 @@ namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
             UserManager<ApplicationUser> userManager,
             IUserStore<ApplicationUser> userStore,
             SignInManager<ApplicationUser> signInManager,
+            ILeaveAllocationService leaveAllocationService,
             ILogger<RegisterModel> logger,
             RoleManager<IdentityRole> roleManager,
             IEmailSender emailSender)
@@ -32,6 +36,7 @@ namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
             _logger = logger;
             _emailSender = emailSender;
             _roleManager = roleManager;
+            _leaveAllocationService = leaveAllocationService;
         }
 
 
@@ -140,6 +145,11 @@ namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
                     await _userManager.AddToRoleAsync(user, Input.RoleName);
 
                     var userId = await _userManager.GetUserIdAsync(user);
+
+                    //Allocate Leave after successful regustration
+
+                   await  _leaveAllocationService.AllocateLeave(userId);
+
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     var callbackUrl = Url.Page(

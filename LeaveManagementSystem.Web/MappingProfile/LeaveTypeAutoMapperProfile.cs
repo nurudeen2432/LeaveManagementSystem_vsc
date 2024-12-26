@@ -4,10 +4,10 @@ using LeaveManagementSystem.Web.Models.LeaveTypes;
 
 namespace LeaveManagementSystem.Web.MappingProfile;
 
-public class AutoMapperProfile : Profile
+public class LeaveTypeAutoMapperProfile : Profile
 {
     
-    public AutoMapperProfile()
+    public LeaveTypeAutoMapperProfile()
     {
         CreateMap<LeaveType, IndexVM>();
 
