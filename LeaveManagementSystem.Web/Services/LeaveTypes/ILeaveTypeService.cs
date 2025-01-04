@@ -14,6 +14,7 @@ public interface ILeaveTypeService
     Task Remove(Guid? id);
 
     Task<bool> CheckIfLeaveTypeNameExist(string name);
+    Task<bool> DaysExceedMaximum(Guid leaveTypeId, int days);
 
     Task<bool> CheckIfLeaveTypeNameExistForEdit(LeaveTypeEditVM leaveTypeEdit);
     bool LeaveTypeExists(Guid id);

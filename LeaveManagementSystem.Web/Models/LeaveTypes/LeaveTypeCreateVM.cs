@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LeaveManagementSystem.Web.Models.LeaveTypes;
 
@@ -13,5 +14,5 @@ public class LeaveTypeCreateVM
 [Display(Name ="Maximum Allocation of Days")]
     public string NumberOfDays { get; set; } = default!;
 
-
+    public DateOnly StartDate { get; internal set; }
 }

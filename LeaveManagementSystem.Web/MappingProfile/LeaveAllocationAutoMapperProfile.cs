@@ -14,11 +14,13 @@ namespace LeaveManagementSystem.Web.MappingProfile
         public LeaveAllocationAutoMapperProfile()
         {
             CreateMap<ApplicationUser, EmployeeListVM>();
-            
+
           CreateMap<LeaveAllocation, LeaveAllocationVM>()
             .ForMember(dest => dest.LeaveType, opt => opt.MapFrom(src => src.LeaveType)); // Map LeaveType explicitly
 
         CreateMap<Period, PeriodVM>();
+
+        CreateMap<LeaveAllocation, LeaveAllocationEditVM>();
 
         // Add this mapping
         CreateMap<LeaveType, LeaveTypeReadOnlyVM>();

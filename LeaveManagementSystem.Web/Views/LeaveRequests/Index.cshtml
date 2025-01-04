@@ -1,0 +1,75 @@
+@using static LeaveManagementSystem.Web.Services.LeaveRequests.LeaveRequestsService
+@model IEnumerable<LeaveRequestListVM>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+   ViewData["Title"] = "Leave Request List";
+}
+<p>
+    <!-- Go the asp-action Create once clicked -->
+    <a asp-action="Create" class="btn btn-primary">Request Leave</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LeaveType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+             <th>
+                 @Html.DisplayNameFor(model => model.NumberOfDays)
+            </th> 
+            <th>
+                 @Html.DisplayNameFor(model => model.LeaveRequestStatus)
+            </th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    var className = string.Empty;
+    if(item.LeaveRequestStatus == LeaveRequestStatuses.Pending){
+        className="warning";
+    }
+    else if(item.LeaveRequestStatus == LeaveRequestStatuses.Approved){
+        className="success";
+    }
+    else if(item.LeaveRequestStatus == LeaveRequestStatuses.Canceled){
+        className="dark";
+    }
+    else if(item.LeaveRequestStatus == LeaveRequestStatuses.Declined){
+        className="danger";
+    }
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LeaveType)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfDays)
+            </td>
+             <td>
+                <span class="badge rounded-pill bg-@className">@item.LeaveRequestStatus.ToString()</span>
+            </td>
+
+            <td>
+                @if(item.LeaveRequestStatus == LeaveRequestStatuses.Pending){
+                    <a asp-action="Cancel" asp-route-id="@item.Id" class="btn btn-danger">Cancel</a>
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
