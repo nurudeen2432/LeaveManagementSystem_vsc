@@ -26,7 +26,7 @@ namespace LeaveManagementSystem.Web.Controllers
         public async Task<IActionResult> Index()
         {
            
-            var model = _leaveRequestsService.GetEmployeeLeaveRequests();
+            var model = await _leaveRequestsService.GetEmployeeLeaveRequests();
 
             return View(model);
         }
@@ -74,26 +74,30 @@ namespace LeaveManagementSystem.Web.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public async Task<IActionResult> Cancle(Guid leaveRequestId)
+        public async Task<IActionResult> Cancel(Guid Id)
         {
-            return View();
+            await _leaveRequestsService.CancelLeaveRequest(Id);
+            return RedirectToAction(nameof(Index));
         }
         //Admin/supervisor review request
         public async Task<IActionResult> ListRequests(){
-            return View();
+            var model = await _leaveRequestsService.AdminGetAllLeaveRequests();
+            return View(model);
         }
 
-        public async Task<IActionResult> Review(Guid leaveRequestId)
+        public async Task<IActionResult> Review(Guid id)
         {
-            return View();
+           var model= await _leaveRequestsService.GetLeaveRequestForReview(id);
+            return View(model);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public async Task<IActionResult> Review(/*Use view Model*/)
+        public async Task<IActionResult> Review(Guid id, bool approved)
         {
-            return View();
+            await _leaveRequestsService.ReviewLeaveRequest(id, approved);
+            return RedirectToAction(nameof(ListRequests));
         }
      
     }

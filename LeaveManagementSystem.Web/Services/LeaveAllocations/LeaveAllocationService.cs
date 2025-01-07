@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using LeaveManagementSystem.Web.Models.LeaveAllocations;
+using LeaveManagementSystem.Web.Services.Periods;
 using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Web.Services.LeaveAllocations
@@ -12,7 +13,8 @@ namespace LeaveManagementSystem.Web.Services.LeaveAllocations
         ApplicationDbContext _context,
         IHttpContextAccessor _httpContextAccessor,
         IMapper _mapper,
-        UserManager<ApplicationUser> _userManager
+        UserManager<ApplicationUser> _userManager,
+        IPeriodsServices _periodsServices
         ) : ILeaveAllocationService
     {
         public async Task AllocateLeave(string employeeId)
@@ -28,11 +30,11 @@ namespace LeaveManagementSystem.Web.Services.LeaveAllocations
 
             //get the current period based on the year
 
-            var currentDate = DateTime.Now;
+            
 
-            var period = await _context.Periods.SingleAsync(q => q.EndDate.Year == currentDate.Year);
+            var period = await _periodsServices.GetCurrentPeriod();
 
-            var monthsRemaining = period.EndDate.Month - currentDate.Month;
+            var monthsRemaining = period.EndDate.Month - DateTime.Now.Month;
 
             //calculate leave based on the number of month left
 

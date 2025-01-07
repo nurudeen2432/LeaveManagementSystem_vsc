@@ -10,8 +10,10 @@ namespace LeaveManagementSystem.Web.Services.LeaveRequests
 
         Task CancelLeaveRequest(Guid leaveRequestId);
         Task<LeaveRequestListVM> GetAllLeaveRequests();
-        Task ReviewLeaveRequest (LeaveRequestReviewVM model);
+        Task ReviewLeaveRequest (Guid leaveRequestId, bool approved);
+        Task<EmployeeLeaveRequestListVM> AdminGetAllLeaveRequests();
 
         Task<bool> RequestDateExceedAllocation(LeaveRequestCreateVM model);
+        Task<ReviewLeaveRequestVM> GetLeaveRequestForReview(Guid id);
     }
 }
