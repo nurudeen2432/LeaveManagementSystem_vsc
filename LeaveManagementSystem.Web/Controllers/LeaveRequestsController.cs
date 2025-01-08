@@ -33,10 +33,10 @@ namespace LeaveManagementSystem.Web.Controllers
 
         //Employee Create requests
 
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Create(Guid? leaveTypeId)
         {
             var leaveTypes = await _leaveTypeService.GetAll();
-            var leaveTypesList = new SelectList(leaveTypes, "Id", "Name");
+            var leaveTypesList = new SelectList(leaveTypes, "Id", "Name", leaveTypeId);
             var model = new LeaveRequestCreateVM 
             {
                 StartDate = DateOnly.FromDateTime(DateTime.Now),
@@ -51,6 +51,7 @@ namespace LeaveManagementSystem.Web.Controllers
         //Employee Create request
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("LeaveRequests/Create")]
         public async Task<IActionResult> Create(LeaveRequestCreateVM model)
         {
             if(await _leaveRequestsService.RequestDateExceedAllocation(model)){
@@ -80,6 +81,8 @@ namespace LeaveManagementSystem.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
         //Admin/supervisor review request
+        
+        [Authorize(Policy ="AdminSupervisorOnly")]
         public async Task<IActionResult> ListRequests(){
             var model = await _leaveRequestsService.AdminGetAllLeaveRequests();
             return View(model);

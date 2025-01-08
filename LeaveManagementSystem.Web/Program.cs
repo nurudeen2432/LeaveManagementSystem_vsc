@@ -6,6 +6,8 @@ using LeaveManagementSystem.Web.Services.LeaveTypes;
 using LeaveManagementSystem.Web.Services.Email;
 using LeaveManagementSystem.Web.Services.LeaveAllocations;
 using LeaveManagementSystem.Web.Services.LeaveRequests;
+using LeaveManagementSystem.Web.Services.Periods;
+using LeaveManagementSystem.Web.Services.Users;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,6 +36,15 @@ builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
 builder.Services.AddScoped<ILeaveRequestsService, LeaveRequestsService>();
 
 builder.Services.AddScoped<ILeaveAllocationService, LeaveAllocationService>();
+builder.Services.AddScoped<IPeriodsServices, PeriodsService>();
+
+builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddAuthorizationBuilder()
+    .AddPolicy("AdminSupervisorOnly", policy => {
+    policy.RequireRole(Roles.Administrator, Roles.Supervisor);
+
+});
 
 builder.Services.AddHttpContextAccessor();
 

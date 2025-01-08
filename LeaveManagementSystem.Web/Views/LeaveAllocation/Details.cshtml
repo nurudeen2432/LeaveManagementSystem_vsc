@@ -109,7 +109,7 @@
                                 <br/>
                                 <br>
                             }
-                         <a asp-controller="LeaveRequests" asp-action="Create" class="btn btn-success">Request Leave</a>
+                         <a asp-controller="LeaveRequests" asp-action="Create" asp-route-leaveTypeId="@allocation.LeaveType.Id" class="btn btn-success">Request Leave</a>
 
 
                         </div>

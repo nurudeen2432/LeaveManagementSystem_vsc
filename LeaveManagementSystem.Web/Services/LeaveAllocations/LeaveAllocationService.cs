@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using AutoMapper;
 using LeaveManagementSystem.Web.Models.LeaveAllocations;
 using LeaveManagementSystem.Web.Services.Periods;
+using LeaveManagementSystem.Web.Services.Users;
 using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Web.Services.LeaveAllocations
 {
     public class LeaveAllocationService(
         ApplicationDbContext _context,
-        IHttpContextAccessor _httpContextAccessor,
         IMapper _mapper,
-        UserManager<ApplicationUser> _userManager,
-        IPeriodsServices _periodsServices
+        IPeriodsServices _periodsServices,
+        IUserService _userService
         ) : ILeaveAllocationService
     {
         public async Task AllocateLeave(string employeeId)
@@ -71,7 +71,7 @@ namespace LeaveManagementSystem.Web.Services.LeaveAllocations
 
         public async Task<List<LeaveAllocation>> GetLeaveAllocation()
         {
-            var user = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User);
+            var user = await _userService.GetLoggedInUser();
             var currentDate = DateTime.Now;
             var leaveAllocation = await _context.LeaveAllocations
             .Include(q => q.LeaveType)
@@ -89,8 +89,8 @@ namespace LeaveManagementSystem.Web.Services.LeaveAllocations
         {
 
             var user = string.IsNullOrEmpty(userid)
-             ? await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User)
-              : await _userManager.FindByIdAsync(userid);
+             ? await _userService.GetLoggedInUser()
+              : await _userService.GetUserById(userid);
 
             var allocations = await GetAllocation(user.Id);
 
@@ -131,7 +131,7 @@ namespace LeaveManagementSystem.Web.Services.LeaveAllocations
 
         public async Task<List<EmployeeListVM>> GetEmployees()
         {
-            var users = await _userManager.GetUsersInRoleAsync(Roles.Employee);
+            var users = await _userService.GetEmployees();
 
             var employee = _mapper.Map<List<ApplicationUser>, List<EmployeeListVM>>(users.ToList());
 
@@ -140,6 +140,7 @@ namespace LeaveManagementSystem.Web.Services.LeaveAllocations
 
 
         public async Task EditAllocation(LeaveAllocationEditVM allocationEditVM)
+        
         {
             //null coalescing expression
             var leaveAllocation = await GetEmployeeAllocation(allocationEditVM.Id) ?? throw new Exception("Leave allocation record does not exist");
@@ -153,6 +154,17 @@ namespace LeaveManagementSystem.Web.Services.LeaveAllocations
                     .ExecuteUpdateAsync(s => s.SetProperty(e => e.Days, allocationEditVM.Days));
 
         }
+   
+      public async Task<LeaveAllocation> GetCurrentAllocation(Guid leaveTypeId, string employeeId)
+   {
+       var period = await _periodsServices.GetCurrentPeriod();
+
+       var allocation = await _context.LeaveAllocations.FirstAsync(q => q.LeaveTypeId == leaveTypeId && q.EmployeeId == employeeId
+       && q.PeriodId == period.Id
+       );
+
+       return allocation;
+   }
         private async Task<List<LeaveAllocation>> GetAllocation(string? userid)
         {
 

@@ -17,7 +17,7 @@
                 <input asp-for="StartDate" class="form-control" />
                 <span asp-validation-for="StartDate" class="text-danger"></span>
             </div>
-            <br/>
+            <br />
             <div class="form-group">
                 <label asp-for="EndDate" class="control-label"></label>
                 <input asp-for="EndDate" class="form-control" />
@@ -26,7 +26,7 @@
             <br>
             <div class="form-group">
                 <label asp-for="LeaveTypeId" class="control-label"></label>
-                <select asp-for="LeaveTypeId" class ="form-select" asp-items="@Model.LeaveTypes"></select>
+                <select asp-for="LeaveTypeId" class="form-select" asp-items="@Model.LeaveTypes"></select>
             </div>
             <br>
             <div class="form-group">
@@ -34,7 +34,7 @@
                 <textarea asp-for="RequestComments" class="form-control"></textarea>
                 <span asp-validation-for="RequestComments" class="text-danger"></span>
             </div>
-            <br/>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-success" />
                 <a asp-action="Index" class="btn btn-danger">Cancel</a>
@@ -46,5 +46,24 @@
 
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#StartDate").datepicker({
+                dateFormat: 'yy-mm-dd',
+                changeMonth: true,
+                changeYear: true
+            });
+            $("#EndDate").datepicker({
+                dateFormat: 'yy-mm-dd', 
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+    </script>
 }
