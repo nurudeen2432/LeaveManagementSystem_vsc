@@ -1,14 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 
 using Microsoft.EntityFrameworkCore;
-
-using LeaveManagementSystem.Web.Data;
-using LeaveManagementSystem.Web.Models.LeaveTypes;
+using LeaveManagementSystem.Application.Models.LeaveTypes;
 using AutoMapper;
-using LeaveManagementSystem.Web.Services.LeaveTypes;
+using LeaveManagementSystem.Application.Services.LeaveTypes;
 
 
-namespace LeaveManagementSystem.Web.Controllers {
+namespace LeaveManagementSystem.Application.Controllers {
 
 [Authorize(Roles = "Administrator")]
 public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Controller

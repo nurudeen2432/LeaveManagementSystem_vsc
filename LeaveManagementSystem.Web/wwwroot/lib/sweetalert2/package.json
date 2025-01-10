@@ -21,7 +21,7 @@
     "eslint-plugin-jsdoc": "^50.0.0",
     "eslint-plugin-no-unsanitized": "^4.0.1",
     "jquery": "^3.6.1",
-    "playwright-webkit": "^1.37.1",
+    "playwright-Applicationkit": "^1.37.1",
     "prettier": "^3.0.0",
     "rollup": "^4.0.0",
     "sass": "^1.83.0",
@@ -65,7 +65,7 @@
     "test": "cypress run --headless",
     "check-types": "npx -p typescript@latest tsc --noEmit --lib dom,es2018 -p jsconfig.json",
     "cypress:open": "cypress open",
-    "webpack-build": "webpack --config=test/webpack/webpack.config.js"
+    "Applicationpack-build": "Applicationpack --config=test/Applicationpack/Applicationpack.config.js"
   },
   "funding": {
     "type": "individual",

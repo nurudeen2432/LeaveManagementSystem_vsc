@@ -74,7 +74,7 @@ const keydownHandler = (innerParams, event, dismissWith) => {
   }
 
   // Ignore keydown during IME composition
-  // https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event#ignoring_keydown_during_ime_composition
+  // https://developer.mozilla.org/en-US/docs/Application/API/Document/keydown_event#ignoring_keydown_during_ime_composition
   // https://github.com/sweetalert2/sweetalert2/issues/720
   // https://github.com/sweetalert2/sweetalert2/issues/2406
   if (event.isComposing || event.keyCode === 229) {

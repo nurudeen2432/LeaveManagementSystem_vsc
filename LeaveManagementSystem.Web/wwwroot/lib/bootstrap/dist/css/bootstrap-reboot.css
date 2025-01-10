@@ -26,8 +26,8 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -Applicationkit-text-size-adjust: 100%;
+  -Applicationkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 hr {
@@ -100,10 +100,10 @@ p {
 
 abbr[title],
 abbr[data-bs-original-title] {
-  -webkit-text-decoration: underline dotted;
+  -Applicationkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
-  -webkit-text-decoration-skip-ink: none;
+  -Applicationkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 
@@ -256,7 +256,7 @@ caption {
 
 th {
   text-align: inherit;
-  text-align: -webkit-match-parent;
+  text-align: -Applicationkit-match-parent;
 }
 
 thead,
@@ -309,7 +309,7 @@ select:disabled {
   opacity: 1;
 }
 
-[list]::-webkit-calendar-picker-indicator {
+[list]::-Applicationkit-calendar-picker-indicator {
   display: none;
 }
 
@@ -317,7 +317,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  -Applicationkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -359,23 +359,23 @@ legend + * {
   clear: left;
 }
 
-::-webkit-datetime-edit-fields-wrapper,
-::-webkit-datetime-edit-text,
-::-webkit-datetime-edit-minute,
-::-webkit-datetime-edit-hour-field,
-::-webkit-datetime-edit-day-field,
-::-webkit-datetime-edit-month-field,
-::-webkit-datetime-edit-year-field {
+::-Applicationkit-datetime-edit-fields-wrapper,
+::-Applicationkit-datetime-edit-text,
+::-Applicationkit-datetime-edit-minute,
+::-Applicationkit-datetime-edit-hour-field,
+::-Applicationkit-datetime-edit-day-field,
+::-Applicationkit-datetime-edit-month-field,
+::-Applicationkit-datetime-edit-year-field {
   padding: 0;
 }
 
-::-webkit-inner-spin-button {
+::-Applicationkit-inner-spin-button {
   height: auto;
 }
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  -Applicationkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -386,11 +386,11 @@ legend + * {
   direction: ltr;
 }
 */
-::-webkit-search-decoration {
-  -webkit-appearance: none;
+::-Applicationkit-search-decoration {
+  -Applicationkit-appearance: none;
 }
 
-::-webkit-color-swatch-wrapper {
+::-Applicationkit-color-swatch-wrapper {
   padding: 0;
 }
 
@@ -398,9 +398,9 @@ legend + * {
   font: inherit;
 }
 
-::-webkit-file-upload-button {
+::-Applicationkit-file-upload-button {
   font: inherit;
-  -webkit-appearance: button;
+  -Applicationkit-appearance: button;
 }
 
 output {

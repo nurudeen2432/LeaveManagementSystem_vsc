@@ -15,7 +15,7 @@ For all questions related to sponsorship please get in touch with me via email s
 <table>
 <tr>
 <td align="center"><a href="SPONSORS.md#sponsors"><img src="https://sweetalert2.github.io/images/plus.png" width="80"><br>Become a sponsor</a></td>
-<td align="center"><a href="https://startupfa.me/"><img src="https://startupfa.me/images/logo-square.webp" width="80"><br>Startup Fame</a></td>
+<td align="center"><a href="https://startupfa.me/"><img src="https://startupfa.me/images/logo-square.Applicationp" width="80"><br>Startup Fame</a></td>
 <td align="center"><a href="https://www.inksonic.com/"><img src="https://sweetalert2.github.io/images/sponsors/inksonic.png" width="80"><br>InkSonic</a></td>
 <td align="center"><a href="https://bluehive.com/?utm_source=sweetalert2&utm_medium=sponsored&utm_campaign=listing"><img src="https://sweetalert2.github.io/images/sponsors/bluehive.png" width="80"><br>Occupational Healthcare</a></td>
 <td align="center"><a href="https://boilerplatehub.com/?utm_source=sweetalert2"><img src="https://sweetalert2.github.io/images/sponsors/boilerplatehub.jpg" width="80"><br>Build your SaaS or App</a></td>
@@ -111,6 +111,6 @@ For all questions related to sponsorship please get in touch with me via email s
 
 As a consequence of the illegal war in Ukraine, the behavior of this repository and related npm package [sweetalert2](https://www.npmjs.com/package/sweetalert2) is different for `.ru`, `.su`, `.by`, and `.рф` domain zones.
 
-Including this software in any domain in `.ru`, `.su`, `.by`, and `.рф` domain zones will block the website navigation and play the national anthem of Ukraine.
+Including this software in any domain in `.ru`, `.su`, `.by`, and `.рф` domain zones will block the Applicationsite navigation and play the national anthem of Ukraine.
 
 This behavior is classified as [protestware](https://snyk.io/blog/protestware-open-source-types-impact/) and this project is listed in [GitHub Advisory Database](https://github.com/advisories/GHSA-mrr8-v49w-3333) and [Snyk Vulnerability DB](https://security.snyk.io/package/npm/sweetalert2/11.5.2).

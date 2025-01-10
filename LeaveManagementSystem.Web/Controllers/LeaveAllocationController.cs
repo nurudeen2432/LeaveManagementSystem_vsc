@@ -1,12 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using LeaveManagementSystem.Web.Models.LeaveAllocations;
-using LeaveManagementSystem.Web.Services.LeaveAllocations;
-using LeaveManagementSystem.Web.Services.LeaveTypes;
+using LeaveManagementSystem.Common.Static;
+using LeaveManagementSystem.Application.Models.LeaveAllocations;
+using LeaveManagementSystem.Application.Services.LeaveAllocations;
+using LeaveManagementSystem.Application.Services.LeaveTypes;
 
-namespace LeaveManagementSystem.Web.Controllers
+
+namespace LeaveManagementSystem.Application.Controllers
 {
     public class LeaveAllocationController(
         ILeaveAllocationService _leaveAllocationService,

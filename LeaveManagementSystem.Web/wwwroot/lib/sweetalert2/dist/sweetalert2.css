@@ -77,7 +77,7 @@ div:where(.swal2-container) {
   padding: 0.625em;
   overflow-x: hidden;
   transition: background-color 0.1s;
-  -webkit-overflow-scrolling: touch;
+  -Applicationkit-overflow-scrolling: touch;
 }
 div:where(.swal2-container).swal2-backdrop-show, div:where(.swal2-container).swal2-noanimation {
   background: rgba(0, 0, 0, 0.4);
@@ -681,7 +681,7 @@ div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-circular-lin
 }
 
 [class^=swal2] {
-  -webkit-tap-highlight-color: transparent;
+  -Applicationkit-tap-highlight-color: transparent;
 }
 
 .swal2-show {

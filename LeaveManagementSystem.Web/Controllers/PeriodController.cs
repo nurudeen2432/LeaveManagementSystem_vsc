@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using LeaveManagementSystem.Web.Data;
+using LeaveManagementSystem.Common.Static;
 
-namespace LeaveManagementSystem.Web.Controllers
+namespace LeaveManagementSystem.Application.Controllers
 {
     [Authorize(Roles = Roles.Administrator)]
     public class PeriodController : Controller

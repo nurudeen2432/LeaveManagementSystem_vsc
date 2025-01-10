@@ -79,8 +79,8 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -Applicationkit-text-size-adjust: 100%;
+  -Applicationkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 hr {
@@ -153,10 +153,10 @@ p {
 
 abbr[title],
 abbr[data-bs-original-title] {
-  -webkit-text-decoration: underline dotted;
+  -Applicationkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
-  -webkit-text-decoration-skip-ink: none;
+  -Applicationkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 
@@ -309,7 +309,7 @@ caption {
 
 th {
   text-align: inherit;
-  text-align: -webkit-match-parent;
+  text-align: -Applicationkit-match-parent;
 }
 
 thead,
@@ -362,7 +362,7 @@ select:disabled {
   opacity: 1;
 }
 
-[list]::-webkit-calendar-picker-indicator {
+[list]::-Applicationkit-calendar-picker-indicator {
   display: none;
 }
 
@@ -370,7 +370,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  -Applicationkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -412,23 +412,23 @@ legend + * {
   clear: left;
 }
 
-::-webkit-datetime-edit-fields-wrapper,
-::-webkit-datetime-edit-text,
-::-webkit-datetime-edit-minute,
-::-webkit-datetime-edit-hour-field,
-::-webkit-datetime-edit-day-field,
-::-webkit-datetime-edit-month-field,
-::-webkit-datetime-edit-year-field {
+::-Applicationkit-datetime-edit-fields-wrapper,
+::-Applicationkit-datetime-edit-text,
+::-Applicationkit-datetime-edit-minute,
+::-Applicationkit-datetime-edit-hour-field,
+::-Applicationkit-datetime-edit-day-field,
+::-Applicationkit-datetime-edit-month-field,
+::-Applicationkit-datetime-edit-year-field {
   padding: 0;
 }
 
-::-webkit-inner-spin-button {
+::-Applicationkit-inner-spin-button {
   height: auto;
 }
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  -Applicationkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -439,11 +439,11 @@ legend + * {
   direction: ltr;
 }
 */
-::-webkit-search-decoration {
-  -webkit-appearance: none;
+::-Applicationkit-search-decoration {
+  -Applicationkit-appearance: none;
 }
 
-::-webkit-color-swatch-wrapper {
+::-Applicationkit-color-swatch-wrapper {
   padding: 0;
 }
 
@@ -451,9 +451,9 @@ legend + * {
   font: inherit;
 }
 
-::-webkit-file-upload-button {
+::-Applicationkit-file-upload-button {
   font: inherit;
-  -webkit-appearance: button;
+  -Applicationkit-appearance: button;
 }
 
 output {
@@ -2109,37 +2109,37 @@ progress {
 
 .table-responsive {
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  -Applicationkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    -Applicationkit-overflow-scrolling: touch;
   }
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    -Applicationkit-overflow-scrolling: touch;
   }
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    -Applicationkit-overflow-scrolling: touch;
   }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    -Applicationkit-overflow-scrolling: touch;
   }
 }
 @media (max-width: 1399.98px) {
   .table-responsive-xxl {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    -Applicationkit-overflow-scrolling: touch;
   }
 }
 .form-label {
@@ -2183,7 +2183,7 @@ progress {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  -webkit-appearance: none;
+  -Applicationkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   border-radius: 0.25rem;
@@ -2207,7 +2207,7 @@ progress {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
-.form-control::-webkit-date-and-time-value {
+.form-control::-Applicationkit-date-and-time-value {
   height: 1.5em;
 }
 .form-control::-moz-placeholder {
@@ -2225,7 +2225,7 @@ progress {
 .form-control::file-selector-button {
   padding: 0.375rem 0.75rem;
   margin: -0.375rem -0.75rem;
-  -webkit-margin-end: 0.75rem;
+  -Applicationkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
   color: #212529;
   background-color: #e9ecef;
@@ -2245,10 +2245,10 @@ progress {
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
   background-color: #dde0e3;
 }
-.form-control::-webkit-file-upload-button {
+.form-control::-Applicationkit-file-upload-button {
   padding: 0.375rem 0.75rem;
   margin: -0.375rem -0.75rem;
-  -webkit-margin-end: 0.75rem;
+  -Applicationkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
   color: #212529;
   background-color: #e9ecef;
@@ -2258,16 +2258,16 @@ progress {
   border-width: 0;
   border-inline-end-width: 1px;
   border-radius: 0;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -Applicationkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .form-control::-webkit-file-upload-button {
-    -webkit-transition: none;
+  .form-control::-Applicationkit-file-upload-button {
+    -Applicationkit-transition: none;
     transition: none;
   }
 }
-.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+.form-control:hover:not(:disabled):not([readonly])::-Applicationkit-file-upload-button {
   background-color: #dde0e3;
 }
 
@@ -2296,13 +2296,13 @@ progress {
 .form-control-sm::file-selector-button {
   padding: 0.25rem 0.5rem;
   margin: -0.25rem -0.5rem;
-  -webkit-margin-end: 0.5rem;
+  -Applicationkit-margin-end: 0.5rem;
   margin-inline-end: 0.5rem;
 }
-.form-control-sm::-webkit-file-upload-button {
+.form-control-sm::-Applicationkit-file-upload-button {
   padding: 0.25rem 0.5rem;
   margin: -0.25rem -0.5rem;
-  -webkit-margin-end: 0.5rem;
+  -Applicationkit-margin-end: 0.5rem;
   margin-inline-end: 0.5rem;
 }
 
@@ -2315,13 +2315,13 @@ progress {
 .form-control-lg::file-selector-button {
   padding: 0.5rem 1rem;
   margin: -0.5rem -1rem;
-  -webkit-margin-end: 1rem;
+  -Applicationkit-margin-end: 1rem;
   margin-inline-end: 1rem;
 }
-.form-control-lg::-webkit-file-upload-button {
+.form-control-lg::-Applicationkit-file-upload-button {
   padding: 0.5rem 1rem;
   margin: -0.5rem -1rem;
-  -webkit-margin-end: 1rem;
+  -Applicationkit-margin-end: 1rem;
   margin-inline-end: 1rem;
 }
 
@@ -2347,7 +2347,7 @@ textarea.form-control-lg {
   height: 1.5em;
   border-radius: 0.25rem;
 }
-.form-control-color::-webkit-color-swatch {
+.form-control-color::-Applicationkit-color-swatch {
   height: 1.5em;
   border-radius: 0.25rem;
 }
@@ -2369,7 +2369,7 @@ textarea.form-control-lg {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -webkit-appearance: none;
+  -Applicationkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
@@ -2430,10 +2430,10 @@ textarea.form-control-lg {
   background-position: center;
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  -webkit-appearance: none;
+  -Applicationkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
+  -Applicationkit-print-color-adjust: exact;
   color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
@@ -2519,14 +2519,14 @@ textarea.form-control-lg {
   height: 1.5rem;
   padding: 0;
   background-color: transparent;
-  -webkit-appearance: none;
+  -Applicationkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 .form-range:focus {
   outline: 0;
 }
-.form-range:focus::-webkit-slider-thumb {
+.form-range:focus::-Applicationkit-slider-thumb {
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
@@ -2535,28 +2535,28 @@ textarea.form-control-lg {
 .form-range::-moz-focus-outer {
   border: 0;
 }
-.form-range::-webkit-slider-thumb {
+.form-range::-Applicationkit-slider-thumb {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
   background-color: #0d6efd;
   border: 0;
   border-radius: 1rem;
-  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -Applicationkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -webkit-appearance: none;
+  -Applicationkit-appearance: none;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
-  .form-range::-webkit-slider-thumb {
-    -webkit-transition: none;
+  .form-range::-Applicationkit-slider-thumb {
+    -Applicationkit-transition: none;
     transition: none;
   }
 }
-.form-range::-webkit-slider-thumb:active {
+.form-range::-Applicationkit-slider-thumb:active {
   background-color: #b6d4fe;
 }
-.form-range::-webkit-slider-runnable-track {
+.form-range::-Applicationkit-slider-runnable-track {
   width: 100%;
   height: 0.5rem;
   color: transparent;
@@ -2597,7 +2597,7 @@ textarea.form-control-lg {
 .form-range:disabled {
   pointer-events: none;
 }
-.form-range:disabled::-webkit-slider-thumb {
+.form-range:disabled::-Applicationkit-slider-thumb {
   background-color: #adb5bd;
 }
 .form-range:disabled::-moz-range-thumb {
@@ -2645,7 +2645,7 @@ textarea.form-control-lg {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
 }
-.form-floating > .form-control:-webkit-autofill {
+.form-floating > .form-control:-Applicationkit-autofill {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
 }
@@ -2663,7 +2663,7 @@ textarea.form-control-lg {
   opacity: 0.65;
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
-.form-floating > .form-control:-webkit-autofill ~ label {
+.form-floating > .form-control:-Applicationkit-autofill ~ label {
   opacity: 0.65;
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
@@ -2935,7 +2935,7 @@ textarea.form-control-lg {
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
-  -webkit-user-select: none;
+  -Applicationkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
   background-color: transparent;
@@ -4937,7 +4937,7 @@ textarea.form-control-lg {
   color: #101214;
 }
 
-@-webkit-keyframes progress-bar-stripes {
+@-Applicationkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
   }
@@ -4980,12 +4980,12 @@ textarea.form-control-lg {
 }
 
 .progress-bar-animated {
-  -webkit-animation: 1s linear infinite progress-bar-stripes;
+  -Applicationkit-animation: 1s linear infinite progress-bar-stripes;
   animation: 1s linear infinite progress-bar-stripes;
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
-    -webkit-animation: none;
+    -Applicationkit-animation: none;
     animation: none;
   }
 }
@@ -5347,7 +5347,7 @@ textarea.form-control-lg {
 }
 .btn-close:disabled, .btn-close.disabled {
   pointer-events: none;
-  -webkit-user-select: none;
+  -Applicationkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
   opacity: 0.25;
@@ -5376,7 +5376,7 @@ textarea.form-control-lg {
 }
 
 .toast-container {
-  width: -webkit-max-content;
+  width: -Applicationkit-max-content;
   width: -moz-max-content;
   width: max-content;
   max-width: 100%;
@@ -5944,7 +5944,7 @@ textarea.form-control-lg {
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
+  -Applicationkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
@@ -6126,7 +6126,7 @@ textarea.form-control-lg {
   color: #000;
 }
 
-@-webkit-keyframes spinner-border {
+@-Applicationkit-keyframes spinner-border {
   to {
     transform: rotate(360deg) /* rtl:ignore */;
   }
@@ -6145,7 +6145,7 @@ textarea.form-control-lg {
   border: 0.25em solid currentColor;
   border-right-color: transparent;
   border-radius: 50%;
-  -webkit-animation: 0.75s linear infinite spinner-border;
+  -Applicationkit-animation: 0.75s linear infinite spinner-border;
   animation: 0.75s linear infinite spinner-border;
 }
 
@@ -6155,7 +6155,7 @@ textarea.form-control-lg {
   border-width: 0.2em;
 }
 
-@-webkit-keyframes spinner-grow {
+@-Applicationkit-keyframes spinner-grow {
   0% {
     transform: scale(0);
   }
@@ -6182,7 +6182,7 @@ textarea.form-control-lg {
   background-color: currentColor;
   border-radius: 50%;
   opacity: 0;
-  -webkit-animation: 0.75s linear infinite spinner-grow;
+  -Applicationkit-animation: 0.75s linear infinite spinner-grow;
   animation: 0.75s linear infinite spinner-grow;
 }
 
@@ -6194,7 +6194,7 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .spinner-border,
 .spinner-grow {
-    -webkit-animation-duration: 1.5s;
+    -Applicationkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
   }
 }
@@ -6322,11 +6322,11 @@ textarea.form-control-lg {
 }
 
 .placeholder-glow .placeholder {
-  -webkit-animation: placeholder-glow 2s ease-in-out infinite;
+  -Applicationkit-animation: placeholder-glow 2s ease-in-out infinite;
   animation: placeholder-glow 2s ease-in-out infinite;
 }
 
-@-webkit-keyframes placeholder-glow {
+@-Applicationkit-keyframes placeholder-glow {
   50% {
     opacity: 0.2;
   }
@@ -6338,24 +6338,24 @@ textarea.form-control-lg {
   }
 }
 .placeholder-wave {
-  -webkit-mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
+  -Applicationkit-mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
   mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
-  -webkit-mask-size: 200% 100%;
+  -Applicationkit-mask-size: 200% 100%;
   mask-size: 200% 100%;
-  -webkit-animation: placeholder-wave 2s linear infinite;
+  -Applicationkit-animation: placeholder-wave 2s linear infinite;
   animation: placeholder-wave 2s linear infinite;
 }
 
-@-webkit-keyframes placeholder-wave {
+@-Applicationkit-keyframes placeholder-wave {
   100% {
-    -webkit-mask-position: -200% 0%;
+    -Applicationkit-mask-position: -200% 0%;
     mask-position: -200% 0%;
   }
 }
 
 @keyframes placeholder-wave {
   100% {
-    -webkit-mask-position: -200% 0%;
+    -Applicationkit-mask-position: -200% 0%;
     mask-position: -200% 0%;
   }
 }
@@ -6471,7 +6471,7 @@ textarea.form-control-lg {
 }
 
 .sticky-top {
-  position: -webkit-sticky;
+  position: -Applicationkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1020;
@@ -6479,7 +6479,7 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .sticky-sm-top {
-    position: -webkit-sticky;
+    position: -Applicationkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -6487,7 +6487,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .sticky-md-top {
-    position: -webkit-sticky;
+    position: -Applicationkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -6495,7 +6495,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .sticky-lg-top {
-    position: -webkit-sticky;
+    position: -Applicationkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -6503,7 +6503,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .sticky-xl-top {
-    position: -webkit-sticky;
+    position: -Applicationkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -6511,7 +6511,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1400px) {
   .sticky-xxl-top {
-    position: -webkit-sticky;
+    position: -Applicationkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -6714,7 +6714,7 @@ textarea.form-control-lg {
 }
 
 .position-sticky {
-  position: -webkit-sticky !important;
+  position: -Applicationkit-sticky !important;
   position: sticky !important;
 }
 
@@ -7823,19 +7823,19 @@ textarea.form-control-lg {
 }
 
 .user-select-all {
-  -webkit-user-select: all !important;
+  -Applicationkit-user-select: all !important;
   -moz-user-select: all !important;
   user-select: all !important;
 }
 
 .user-select-auto {
-  -webkit-user-select: auto !important;
+  -Applicationkit-user-select: auto !important;
   -moz-user-select: auto !important;
   user-select: auto !important;
 }
 
 .user-select-none {
-  -webkit-user-select: none !important;
+  -Applicationkit-user-select: none !important;
   -moz-user-select: none !important;
   user-select: none !important;
 }

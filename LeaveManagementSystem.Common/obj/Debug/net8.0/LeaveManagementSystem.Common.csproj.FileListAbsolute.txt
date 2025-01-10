@@ -1,0 +1,12 @@
+c:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\bin\Debug\net8.0\LeaveManagementSystem.Common.deps.json
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\bin\Debug\net8.0\LeaveManagementSystem.Common.dll
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\bin\Debug\net8.0\LeaveManagementSystem.Common.pdb
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\LeaveManagementSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\LeaveManagementSystem.Common.AssemblyInfoInputs.cache
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\LeaveManagementSystem.Common.AssemblyInfo.cs
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\LeaveManagementSystem.Common.csproj.CoreCompileInputs.cache
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\LeaveManagementSystem.Common.sourcelink.json
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\LeaveManagementSystem.Common.dll
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\refint\LeaveManagementSystem.Common.dll
+C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\LeaveManagementSystem.Common.pdb
+c:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Common\obj\Debug\net8.0\ref\LeaveManagementSystem.Common.dll

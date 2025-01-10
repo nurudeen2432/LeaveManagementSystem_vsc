@@ -3,12 +3,91 @@
   "WorkspaceRootPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|solutionrelative:leavemanagementsystem.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|solutionrelative:leavemanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.web\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|solutionrelative:leavemanagementsystem.web\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FB46B5-DFD9-491F-8295-A39EE007FF5F}|LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj|solutionrelative:leavemanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\dataserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\dataserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\leavemanagementsystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\leavemanagementsystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302419D3-FC8A-41FE-A5B8-C3C054CEDBBC}|LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.application\\applicationserviceregistrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302419D3-FC8A-41FE-A5B8-C3C054CEDBBC}|LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj|solutionrelative:leavemanagementsystem.application\\applicationserviceregistrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302419D3-FC8A-41FE-A5B8-C3C054CEDBBC}|LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.application\\leavemanagementsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{302419D3-FC8A-41FE-A5B8-C3C054CEDBBC}|LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj|solutionrelative:leavemanagementsystem.application\\leavemanagementsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241228141554_addedleaverequesttables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241228141554_addedleaverequesttables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241223230841_addedleaveallocationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241223230841_addedleaveallocationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241221211956_extendusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241221211956_extendusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241213213651_seedingdefaultrolesanduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241213213651_seedingdefaultrolesanduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241207211925_addingleavestypetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241207211925_addingleavestypetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241228141554_addedleaverequesttables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241228141554_addedleaverequesttables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241223230841_addedleaveallocationtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241223230841_addedleaveallocationtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241221211956_extendusertable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241221211956_extendusertable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241213213651_seedingdefaultrolesanduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241213213651_seedingdefaultrolesanduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\20241207211925_addingleavestypetable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\20241207211925_addingleavestypetable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CB6202-2B8B-4320-9BC7-BA11B50B1A5D}|LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj|solutionrelative:leavemanagementsystem.data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1325CF04-5197-4E84-8AD6-9BD9315B9F87}|LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj|c:\\users\\nurudeen.durowade\\downloads\\projects\\leavemanagementsystem\\leavemanagementsystem.common\\static\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1325CF04-5197-4E84-8AD6-9BD9315B9F87}|LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj|solutionrelative:leavemanagementsystem.common\\static\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Services\\Users\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaveManagementSystem.Web\\Services\\Users\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,29 +124,278 @@
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "LeaveManagementSystem.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "LeaveManagementSystem.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LeaveManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T00:30:36.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\DataServiceRegistration.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\DataServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\DataServiceRegistration.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\DataServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:18:12.448Z",
+              "WhenOpened": "2025-01-10T00:12:29.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Data\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "LeaveManagementSystem.Web\\Data\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Data\\ApplicationUser.cs",
-              "RelativeToolTip": "LeaveManagementSystem.Web\\Data\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Program.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Web\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:17:37.99Z",
+              "WhenOpened": "2025-01-09T23:35:42.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationServiceRegistrations.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\ApplicationServiceRegistrations.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Application\\ApplicationServiceRegistrations.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\ApplicationServiceRegistrations.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Application\\ApplicationServiceRegistrations.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T23:35:32.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeaveManagementSystem.Application",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
+              "RelativeToolTip": "LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-09T22:15:18.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveManagementSystem.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-08T20:44:28.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241228141554_AddedLeaveRequestTables.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.Designer.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.Designer.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.Designer.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:47.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241228141554_AddedLeaveRequestTables.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241228141554_AddedLeaveRequestTables.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:46.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241223230841_AddedLeaveAllocationTable.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.Designer.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.Designer.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.Designer.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.Designer.cs",
+              "ViewState": "AgIAAJEBAAAAAAAAAAAtwKwBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:33.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241223230841_AddedLeaveAllocationTable.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241223230841_AddedLeaveAllocationTable.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:32.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241221211956_ExtendUserTable.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.Designer.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.Designer.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.Designer.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.Designer.cs",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAtwF0BAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:23.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241221211956_ExtendUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241221211956_ExtendUserTable.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:19.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241213213651_SeedingDefaultRolesandUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.Designer.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.Designer.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.Designer.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:15.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241213213651_SeedingDefaultRolesandUser.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241213213651_SeedingDefaultRolesandUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:13.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241207211925_AddingLeavesTypeTable.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.Designer.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.Designer.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.Designer.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:08.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241207211925_AddingLeavesTypeTable.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\20241207211925_AddingLeavesTypeTable.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:04.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:47:01.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:46:59.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:44:55.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Services\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Web\\Services\\Users\\UserService.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\Services\\Users\\UserService.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Web\\Services\\Users\\UserService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:38:54.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\Static\\Roles.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem.Common\\Static\\Roles.cs",
+              "ToolTip": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\Static\\Roles.cs",
+              "RelativeToolTip": "LeaveManagementSystem.Common\\Static\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T20:36:17.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALkUAAAAAAAAAAAiwMkUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-08T20:33:01.123Z",
               "EditorCaption": ""
             }
           ]
@@ -76,6 +404,10 @@
           "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"

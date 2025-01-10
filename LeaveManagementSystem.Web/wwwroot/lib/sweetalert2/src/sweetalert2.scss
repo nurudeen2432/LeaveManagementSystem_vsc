@@ -385,7 +385,7 @@ div:where(.swal2-container) {
   transition: $swal2-backdrop-transition;
 
   // sweetalert2/issues/905
-  -webkit-overflow-scrolling: touch;
+  -Applicationkit-overflow-scrolling: touch;
 
   &.swal2-backdrop-show,
   &.swal2-noanimation {
@@ -1136,7 +1136,7 @@ div:where(.swal2-icon) {
 
 // github.com/sweetalert2/sweetalert2/issues/268
 [class^='swal2'] {
-  -webkit-tap-highlight-color: transparent;
+  -Applicationkit-tap-highlight-color: transparent;
 }
 
 .swal2-show {
