@@ -63,7 +63,7 @@ namespace LeaveManagementSystem.Web.Controllers
             {
                 await _leaveAllocationService.EditAllocation(allocationEditVM);
 
-                return RedirectToAction(nameof(Details), new { userId = allocationEditVM.Employee.Id });
+                return RedirectToAction(nameof(Details), new { userId = allocationEditVM?.Employee?.Id });
             }
 
             var days = allocationEditVM.Days;
