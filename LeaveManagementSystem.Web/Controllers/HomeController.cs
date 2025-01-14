@@ -2,7 +2,7 @@ using LeaveManagementSystem.Application.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace LeaveManagementSystem.Application.Controllers
+namespace LeaveManagementSystem.Web.Controllers
 {
     public class HomeController : Controller
     {

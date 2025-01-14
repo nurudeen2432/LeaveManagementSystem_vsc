@@ -4,7 +4,7 @@ using LeaveManagementSystem.Application.Services.LeaveAllocations;
 using LeaveManagementSystem.Application.Services.LeaveTypes;
 
 
-namespace LeaveManagementSystem.Application.Controllers
+namespace LeaveManagementSystem.Web.Controllers
 {
     public class LeaveAllocationController(
         ILeaveAllocationService _leaveAllocationService,
