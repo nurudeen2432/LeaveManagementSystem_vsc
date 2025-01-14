@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 
-namespace LeaveManagementSystem.Application.Controllers
+namespace LeaveManagementSystem.Web.Controllers
 {
     [Authorize]
     public class LeaveRequestsController(

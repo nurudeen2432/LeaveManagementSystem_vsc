@@ -6,7 +6,7 @@ using AutoMapper;
 using LeaveManagementSystem.Application.Services.LeaveTypes;
 
 
-namespace LeaveManagementSystem.Application.Controllers {
+namespace LeaveManagementSystem.Web.Controllers {
 
 [Authorize(Roles = "Administrator")]
 public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Controller

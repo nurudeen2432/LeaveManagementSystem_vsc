@@ -4,7 +4,7 @@ using LeaveManagementSystem.Application.Services.LeaveAllocations;
 using LeaveManagementSystem.Application.Services.LeaveTypes;
 
 
-namespace LeaveManagementSystem.Application.Controllers
+namespace LeaveManagementSystem.Web.Controllers
 {
     public class LeaveAllocationController(
         ILeaveAllocationService _leaveAllocationService,
@@ -63,7 +63,7 @@ namespace LeaveManagementSystem.Application.Controllers
             {
                 await _leaveAllocationService.EditAllocation(allocationEditVM);
 
-                return RedirectToAction(nameof(Details), new { userId = allocationEditVM.Employee.Id });
+                return RedirectToAction(nameof(Details), new { userId = allocationEditVM?.Employee?.Id });
             }
 
             var days = allocationEditVM.Days;
