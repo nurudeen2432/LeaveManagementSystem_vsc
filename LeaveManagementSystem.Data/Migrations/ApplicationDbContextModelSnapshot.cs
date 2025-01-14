@@ -17,7 +17,7 @@ namespace LeaveManagementSystem.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.0")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -102,7 +102,7 @@ namespace LeaveManagementSystem.Data.Migrations
                         {
                             Id = "4969fc6f-c322-46ab-bf8b-49da83b718b9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e094d345-6711-4868-96a2-c056c8acbc4c",
+                            ConcurrencyStamp = "505d3bc5-cacd-4c80-a7f6-09c11355ad97",
                             DateOfBirth = new DateOnly(1964, 12, 1),
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
@@ -110,9 +110,9 @@ namespace LeaveManagementSystem.Data.Migrations
                             LastName = "admin",
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEM01DruStejUame8xGdhLn5uyvJSxum6y4YCfC4okG6iJsMdNmyJ7wp/+NuCJDTKpw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECt7xLoSnQ6zy9rO0dpGJzhLWpgiGm6StMoTJeSVhuYW2YJJItBMtpUMA3J6NgkXVw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ec0185bf-c328-4327-b267-3b9b43f925a7",
+                            SecurityStamp = "7c80da13-43d1-4adf-ad96-e73aeffe178f",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         });
