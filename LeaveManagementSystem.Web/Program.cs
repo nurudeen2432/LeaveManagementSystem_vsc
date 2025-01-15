@@ -10,6 +10,7 @@ using LeaveManagementSystem.Application.Services.Users;
 using LeaveManagementSystem.Application.Services.LeaveTypes;
 using LeaveManagementSystem.Application.Services.Email;
 using LeaveManagementSystem.Application;
+using Serilog;
 
 
 
@@ -45,6 +46,10 @@ builder.Services.AddAuthorizationBuilder()
 
 });
 
+
+builder.Host.UseSerilog((ctx, config)=>{
+    config.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration);
+});
 
 
 
