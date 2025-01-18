@@ -4237,11 +4237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+      "projectUniqueName": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
       "projectName": "LeaveManagementSystem.Data",
-      "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+      "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
       "packagesPath": "C:\\Users\\nurudeen.durowade\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\obj\\",
+      "outputPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4262,8 +4262,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
-              "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
+            "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+              "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
             }
           }
         }

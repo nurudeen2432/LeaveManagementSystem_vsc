@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj": {}
+    "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj": {
+    "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
+        "projectUniqueName": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
         "projectName": "LeaveManagementSystem.Application",
-        "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
+        "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
         "packagesPath": "C:\\Users\\nurudeen.durowade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\obj\\",
+        "outputPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
-                "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
+              "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+                "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
               },
-              "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
-                "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj"
+              "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
+                "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+    "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj",
+        "projectUniqueName": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj",
         "projectName": "LeaveManagementSystem.Common",
-        "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj",
+        "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj",
         "packagesPath": "C:\\Users\\nurudeen.durowade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\obj\\",
+        "outputPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -159,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
+    "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+        "projectUniqueName": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
         "projectName": "LeaveManagementSystem.Data",
-        "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+        "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
         "packagesPath": "C:\\Users\\nurudeen.durowade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\obj\\",
+        "outputPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -187,8 +187,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
-                "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
+              "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+                "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
               }
             }
           }
@@ -254,14 +254,14 @@
         }
       }
     },
-    "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj": {
+    "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj",
+        "projectUniqueName": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj",
         "projectName": "LeaveManagementSystem.Web",
-        "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj",
+        "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\LeaveManagementSystem.Web.csproj",
         "packagesPath": "C:\\Users\\nurudeen.durowade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\obj\\",
+        "outputPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -282,14 +282,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj": {
-                "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj"
+              "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj": {
+                "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj"
               },
-              "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
-                "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
+              "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+                "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
               },
-              "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
-                "projectPath": "C:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj"
+              "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
+                "projectPath": "c:\\Users\\nurudeen.durowade\\Downloads\\Projects\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj"
               }
             }
           }
@@ -327,6 +327,22 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
               "target": "Package",
               "version": "[8.0.0, )"
             },

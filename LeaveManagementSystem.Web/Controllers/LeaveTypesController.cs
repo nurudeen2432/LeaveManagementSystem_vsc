@@ -9,7 +9,7 @@ using LeaveManagementSystem.Application.Services.LeaveTypes;
 namespace LeaveManagementSystem.Web.Controllers {
 
 [Authorize(Roles = "Administrator")]
-public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Controller
+public class LeaveTypesController(ILeaveTypeService _leaveTypeService, ILogger<LeaveTypesController> _logger) : Controller
 {
   
     private const string NameExistValidationMessage = "This leave type already exist in the database";
@@ -20,7 +20,8 @@ public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Control
 
     public async Task<IActionResult> Index()
     {
-    var viewData = await _leaveTypeService.GetAll();
+        _logger.LogInformation("Loading Leave Types");
+        var viewData = await _leaveTypeService.GetAll();
 
         return View(viewData);
     }
@@ -65,9 +66,11 @@ public class LeaveTypesController(ILeaveTypeService _leaveTypeService) : Control
 
          if (ModelState.IsValid)
          {
+            
             await _leaveTypeService.Create(leaveTypeCreate);
              return RedirectToAction(nameof(Index));
          }
+         _logger.LogWarning("Leave Type attempt failed due to invalidity");
          return View(leaveTypeCreate);
      }
 

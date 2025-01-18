@@ -5,7 +5,7 @@
 @{
 
     ViewData["Title"] = "View Allocations";
-
+    Layout="_Adminlayout";
     var isAdmin = User.IsInRole(Roles.Administrator);
     var isEmployee = User.IsInRole(Roles.Employee);
 

@@ -1,0 +1,164 @@
+2025-01-15 14:03:07.965 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 14:03:08.052 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 14:03:08.053 +01:00 [INF] Hosting environment: Development
+2025-01-15 14:03:08.054 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 14:03:08.953 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 14:10:09.415 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 14:10:09.515 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 14:10:09.520 +01:00 [INF] Hosting environment: Development
+2025-01-15 14:10:09.520 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 14:10:10.224 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 14:27:07.790 +01:00 [INF] User logged in.
+2025-01-15 14:58:08.581 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 14:58:08.652 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 14:58:08.653 +01:00 [INF] Hosting environment: Development
+2025-01-15 14:58:08.653 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 14:58:09.443 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 14:58:48.943 +01:00 [INF] Loading Leave Types
+2025-01-15 15:24:20.711 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 15:24:20.803 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 15:24:20.804 +01:00 [INF] Hosting environment: Development
+2025-01-15 15:24:20.805 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 15:24:21.648 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 15:24:24.377 +01:00 [INF] Loading Leave Types
+2025-01-15 15:25:12.523 +01:00 [INF] Creating Leave Type: Stress Management Leave - 12
+2025-01-15 15:25:16.433 +01:00 [INF] Loading Leave Types
+2025-01-15 16:05:38.448 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 16:05:38.520 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 16:05:38.521 +01:00 [INF] Hosting environment: Development
+2025-01-15 16:05:38.522 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 16:05:39.271 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 16:06:01.938 +01:00 [INF] User logged out.
+2025-01-15 16:15:37.169 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 16:15:37.225 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 16:15:37.226 +01:00 [INF] Hosting environment: Development
+2025-01-15 16:15:37.226 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 16:15:37.865 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 16:35:23.433 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 16:35:23.505 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 16:35:23.506 +01:00 [INF] Hosting environment: Development
+2025-01-15 16:35:23.506 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 16:35:24.001 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 16:38:12.140 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 16:38:12.212 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 16:38:12.214 +01:00 [INF] Hosting environment: Development
+2025-01-15 16:38:12.214 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 16:38:12.867 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 17:54:58.985 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 17:54:59.061 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 17:54:59.062 +01:00 [INF] Hosting environment: Development
+2025-01-15 17:54:59.062 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 17:54:59.663 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 17:56:05.137 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 17:56:05.193 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 17:56:05.193 +01:00 [INF] Hosting environment: Development
+2025-01-15 17:56:05.194 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 17:56:05.757 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 18:03:03.478 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 18:03:03.557 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 18:03:03.559 +01:00 [INF] Hosting environment: Development
+2025-01-15 18:03:03.559 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 18:03:04.287 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 18:10:43.026 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 18:10:43.093 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 18:10:43.093 +01:00 [INF] Hosting environment: Development
+2025-01-15 18:10:43.094 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 18:10:43.685 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 18:24:05.407 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 18:24:05.485 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 18:24:05.486 +01:00 [INF] Hosting environment: Development
+2025-01-15 18:24:05.486 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 18:24:06.029 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 18:27:41.271 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 18:27:41.338 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 18:27:41.339 +01:00 [INF] Hosting environment: Development
+2025-01-15 18:27:41.339 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 18:27:41.926 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 18:45:33.368 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 18:45:33.460 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 18:45:33.462 +01:00 [INF] Hosting environment: Development
+2025-01-15 18:45:33.462 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 18:45:34.111 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 19:01:26.701 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 19:01:26.771 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 19:01:26.772 +01:00 [INF] Hosting environment: Development
+2025-01-15 19:01:26.773 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 19:01:27.315 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 19:01:43.440 +01:00 [INF] User logged in.
+2025-01-15 19:01:43.622 +01:00 [INF] Loading Leave Types
+2025-01-15 19:03:16.181 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 19:03:16.239 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 19:03:16.241 +01:00 [INF] Hosting environment: Development
+2025-01-15 19:03:16.241 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 19:03:16.722 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 19:03:27.698 +01:00 [INF] User logged in.
+2025-01-15 19:03:27.788 +01:00 [INF] Loading Leave Types
+2025-01-15 20:26:56.637 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 20:26:56.700 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 20:26:56.701 +01:00 [INF] Hosting environment: Development
+2025-01-15 20:26:56.701 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 20:26:57.407 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 21:23:23.105 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 21:23:23.175 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 21:23:23.176 +01:00 [INF] Hosting environment: Development
+2025-01-15 21:23:23.176 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 21:23:23.861 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 21:23:55.312 +01:00 [INF] User logged in.
+2025-01-15 21:23:55.797 +01:00 [INF] User logged in.
+2025-01-15 21:25:51.038 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 21:25:51.101 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 21:25:51.102 +01:00 [INF] Hosting environment: Development
+2025-01-15 21:25:51.102 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 21:25:51.601 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 21:27:41.321 +01:00 [INF] User logged out.
+2025-01-15 21:28:14.865 +01:00 [INF] User logged in.
+2025-01-15 21:29:47.301 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 21:29:47.335 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 21:29:47.335 +01:00 [INF] Hosting environment: Development
+2025-01-15 21:29:47.335 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 21:29:47.764 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 21:39:49.826 +01:00 [INF] User logged in.
+2025-01-15 21:44:33.050 +01:00 [INF] User logged out.
+2025-01-15 21:46:41.446 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 21:46:41.502 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 21:46:41.503 +01:00 [INF] Hosting environment: Development
+2025-01-15 21:46:41.503 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 21:46:42.088 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 21:46:56.782 +01:00 [INF] User logged in.
+2025-01-15 21:46:57.467 +01:00 [INF] User logged in.
+2025-01-15 22:07:35.720 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 22:07:35.799 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 22:07:35.801 +01:00 [INF] Hosting environment: Development
+2025-01-15 22:07:35.802 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 22:07:36.495 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 22:07:42.694 +01:00 [INF] User logged out.
+2025-01-15 22:34:59.247 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 22:34:59.303 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 22:34:59.305 +01:00 [INF] Hosting environment: Development
+2025-01-15 22:34:59.305 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 22:34:59.975 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 22:35:58.543 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 22:35:58.588 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 22:35:58.589 +01:00 [INF] Hosting environment: Development
+2025-01-15 22:35:58.589 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 22:35:59.040 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 22:37:04.044 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 22:37:04.082 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 22:37:04.083 +01:00 [INF] Hosting environment: Development
+2025-01-15 22:37:04.083 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 22:37:04.500 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 23:25:13.628 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 23:25:13.698 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 23:25:13.699 +01:00 [INF] Hosting environment: Development
+2025-01-15 23:25:13.699 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 23:25:14.323 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 23:30:54.676 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 23:30:54.744 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 23:30:54.745 +01:00 [INF] Hosting environment: Development
+2025-01-15 23:30:54.745 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 23:30:55.213 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-01-15 23:35:56.469 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-15 23:35:56.514 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-15 23:35:56.515 +01:00 [INF] Hosting environment: Development
+2025-01-15 23:35:56.515 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-15 23:35:57.031 +01:00 [WRN] Failed to determine the https port for redirect.
