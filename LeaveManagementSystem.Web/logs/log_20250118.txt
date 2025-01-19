@@ -51,3 +51,8 @@ System.Security.Cryptography.CryptographicException: The payload was invalid. Fo
    at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
    at Microsoft.AspNetCore.Mvc.ViewFeatures.CookieTempDataProvider.LoadTempData(HttpContext context)
 2025-01-18 23:01:15.818 +01:00 [INF] User logged in.
+2025-01-18 23:19:04.135 +01:00 [INF] Now listening on: http://localhost:5007
+2025-01-18 23:19:04.209 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-18 23:19:04.210 +01:00 [INF] Hosting environment: Development
+2025-01-18 23:19:04.211 +01:00 [INF] Content root path: C:\Users\nurudeen.durowade\Downloads\Projects\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-01-18 23:19:04.827 +01:00 [WRN] Failed to determine the https port for redirect.
